@@ -1,5 +1,5 @@
 name: walbzza
-description: Sistema gamer ultra clean (Gnome)
+description: Sistema gamer ultra clean
 
 base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 40
@@ -10,12 +10,6 @@ modules:
       - steam
       - firefox
       - gnome-tweaks
-    remove:
-      - gnome-tour
-      - gnome-maps
-      - gnome-weather
-      - gnome-contacts
-      - evolution
 
   - type: default-flatpaks
     system:
